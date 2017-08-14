@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+   <h1>Parent</h1>
+   <iframe src="/child.html" onload="console.log(this.contentDocument.querySelector('h1').addEventListener('click', (e)=>{ console.log('bra') }))"/>
+</body>
+</html>
+
